@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-image: url(images/mountains.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  font-size: 2rem;
+  padding: 0 10rem 3rem;
+  background-color:rgba(247, 247, 247, 0.849);
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 5rem 2rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 2rem;
+
+}
+
+ul li a:hover {
+  color: white;
+}
+
+.main-header {
+  text-align: center;
+}
+
+/*FORM*/
+.bike_form {
+text-align: center;
+}
+
+.submit {
+  width: 20rem;
+  padding:1rem 2rem;
+  font-size: 2rem;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 1.5rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.submit:hover {
+  background-color: white;
+  color: black;
+  outline: black solid 3px;
+  transition: all ease .3s;
+  
+}
+
+/* IMAGES */
+.zwift_image {
+  text-align: center;
+  margin: 1rem;
+}
+
+.mountain-image {
+  text-align: center;
+  margin: 1rem;
+}
+
+.inseamBox {
+  width: 20rem;
+  padding:1rem 2rem;
+  font-size: 2rem;
+  background-color: rgb(202, 202, 202);
+  border: none;
+  color: white;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+
+.frameSizeCalc {
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+
+#sizeResult {
+  margin: 20px;
+  font-size: 25px;
+}
+
+/*Mobile*/
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.contactForm {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.contactButtons {
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.datetime {
+  text-align: center;
+}
